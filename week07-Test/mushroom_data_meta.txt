@@ -1,0 +1,33 @@
+1. Title: Secondary mushroom data
+
+2. Sources:
+	(a) Mushroom species drawn from source book:
+		Patrick Hardin.Mushrooms & Toadstools.
+	    Zondervan, 1999
+	(b) Inspired by this mushroom data:
+		Jeff Schlimmer.Mushroom Data Set. Apr. 1987.
+		url:https://archive.ics.uci.edu/ml/datasets/Mushroom.
+	(c) Repository containing the related Python scripts and all the data sets: https://mushroom.mathematik.uni-marburg.de/files/ 
+	(d) Author: Dennis Wagner
+	(e) Date: 05 September 2020
+
+3. Relevant information:
+	This dataset includes 61069 hypothetical mushrooms with caps based on 173 species (353 mushrooms
+	per species). Each mushroom is identified as definitely edible, definitely poisonous, or of 
+	unknown edibility and not recommended (the latter class was combined with the poisonous class).
+	Of the 9 variables, 6 are nominal and 3 are metrical.
+
+5. Class information:
+	1. class		poisonous=p, edibile=e (binary)
+
+6. Variable Information:
+   (n: nominal, m: metrical; nominal values as sets of values)
+   1. cap-diameter (m):			float number in cm
+   2. does-bruise-bleed (n):	bruises-or-bleeding=t,no=f
+   3. stem-height (m):			float number in cm
+   4. stem-width (m):			float number in mm   
+   5. stem-root (n):           bulbous=b, swollen=s, club=c, cup=u, equal=e,
+                                rhizomorphs=z, rooted=r
+   6. veil-type (n):           partial=p, universal=u
+   7. has-ring (n):            ring=t, none=f
+   8. season (n):		spring=s, summer=u, autumn=a, winter=w
